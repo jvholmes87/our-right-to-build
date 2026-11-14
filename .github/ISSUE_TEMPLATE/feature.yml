@@ -1,0 +1,28 @@
+name: Feature or visual upgrade
+description: Propose a scoped ORB implementation change
+title: "[Proposal] "
+labels: []
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal and intended audience
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Source IDs, evidence grades and concept/assumption labels
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and relevant owner/partner approval gates
+    validations:
+      required: true
+  - type: checkboxes
+    id: constraints
+    attributes:
+      label: Safeguards
+      options:
+        - label: No private or restricted information is included
+        - label: No deployment or public claims are authorized by this issue
