@@ -10,4 +10,4 @@
 
 **G4 — Site-/field-specific work:** development visuals and research fieldwork require separately documented permissions, site facts, stakeholder/partner input, and professional review. No public depiction of authorization before it exists.
 
-This initial PR is **G0 only**. It must remain draft/unmerged pending G1–G2; no deployment is requested.
+**Historical status:** Foundation PR #5 was merged by the repository owner on 2026-11-15. That merge did not approve G3 website publication. Subsequent changes use their own scoped feature branches and review gates; see [Issue #3 governance review](ISSUE_3_GOVERNANCE_REVIEW.md).
