@@ -9,7 +9,7 @@
 - Gate: `gate:owner-review`, `gate:evidence-review`, `gate:partner-review`
 - State: `status:blocked`, `status:ready-for-review`
 
-Labels should be added when repository label management is available; do not claim they already exist. Open a focused issue per deliverable, with source links, scope, acceptance criteria and review gate.
+Labels in the taxonomy were applied to Issues #1–#4 and verified on 2026-11-15. Existing labels remain available for future issues; some taxonomy labels are unused. Milestone administration and ruleset configuration are pending, as documented in [Issue #3 governance review](ISSUE_3_GOVERNANCE_REVIEW.md). Open a focused issue per deliverable, with source links, scope, acceptance criteria and review gate.
 
 ## Proposed milestones (not created in GitHub until supported)
 
@@ -28,4 +28,4 @@ A task is complete only when code/docs are committed to a review branch, tests a
 
 `issue → scoped branch → changes + tests → draft PR → evidence/security/content review → explicit owner approval → merge → separate release/deployment approval`.
 
-No duplicate PRs; inspect existing work before opening a new one. No automatic merge or deployment is configured by this scaffold.
+No duplicate PRs; inspect existing work before opening a new one. The proposed non-deployment CI for Issue #3 is in `.github/workflows/governance-checks.yml` on its review branch. Passing CI does not constitute approval to merge or deploy; GitHub branch rulesets and hosting settings must be verified independently.
