@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use ORB's original published research or documentation, cite the specific version and its primary sources."
+title: "Our Right to Build (ORB): Central Public Repository"
+type: software
+authors:
+  - family-names: Holmes
+    given-names: Jason V.
+    orcid: "https://orcid.org/0009-0007-2898-8478"
+repository-code: "https://github.com/jvholmes87/our-right-to-build"
+license: MIT
+abstract: "Public-facing coordination and planned website starter for a proposed reparative-development and industrial-capacity initiative; not a validated field-study result."
