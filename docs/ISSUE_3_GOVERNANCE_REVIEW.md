@@ -66,3 +66,7 @@ A workflow running successfully is only a technical gate, not merge or deploymen
 ## Not included
 
 No releases, DNS changes, GitHub Pages enablement, deployment tokens, production analytics, organization formation, certification or fieldwork.
+
+---
+
+**Content licensing:** Original non-code prose in this document is designated **CC BY 4.0 International**, subject to the exclusions and attribution terms in [ORB Content Licensing](../CONTENT_LICENSE.md). External sources, hyperlinks, and third-party assets are not relicensed. The legal code is at https://creativecommons.org/licenses/by/4.0/legalcode .
