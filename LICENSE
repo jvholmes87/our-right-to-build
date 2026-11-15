@@ -20,8 +20,19 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 
-Note: This license covers original software and repository-authored materials
-unless expressly otherwise marked. Third-party references, photographs, maps,
-official reports, names, logos and independently licensed resources are NOT
-relicensed by this file. The separately maintained research repository is
-governed by its own licensing terms.
+Scope for this repository:
+The MIT License above applies to original software, including source code
+(HTML, CSS, JavaScript, Python, GitHub Actions configuration) and software-
+specific documentation, except where a file explicitly states otherwise.
+
+Selected original non-code content is instead offered under Creative Commons
+Attribution 4.0 International (CC BY 4.0), as individually identified in
+CONTENT_LICENSE.md. This MIT notice does not grant permission for those
+identified non-code works under MIT.
+
+Third-party materials, original research hosted in separate repositories,
+unreviewed imagery, logos, sourced reports, external datasets, and restricted
+information are not relicensed by this repository. Prior licenses already
+granted for historical versions are not revoked by this clarification.
+
+See CONTENT_LICENSE.md for the authoritative per-file scope and exclusions.
