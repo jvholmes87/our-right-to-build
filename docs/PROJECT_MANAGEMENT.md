@@ -33,3 +33,7 @@ No duplicate PRs; inspect existing work before opening a new one. The proposed n
 ## License verification gate
 
 Before merging a PR that adds a non-code visual, report or document, verify whether it is original ORB-owned content or a third-party/source artifact and update the [explicit licensing and rights register](../CONTENT_LICENSE.md). A CC BY 4.0 notice for one file does not automatically apply to new files in its folder. Unverified assets remain excluded from the CC BY grant.
+
+---
+
+**Content licensing:** Original non-code prose in this document is designated **CC BY 4.0 International**, subject to the exclusions and attribution terms in [ORB Content Licensing](../CONTENT_LICENSE.md). External sources, hyperlinks, and third-party assets are not relicensed. The legal code is at https://creativecommons.org/licenses/by/4.0/legalcode .
