@@ -11,7 +11,7 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = [
-    "README.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "CITATION.cff",
+    "README.md", "LICENSE", "CONTENT_LICENSE.md", "CONTRIBUTING.md", "SECURITY.md", "CITATION.cff",
     "docs/EVIDENCE_POLICY.md", "docs/PROJECT_MANAGEMENT.md",
     "docs/RELEASE_GATES.md", "website/ARCHITECTURE.md",
     "website/index.html", "website/styles.css",
