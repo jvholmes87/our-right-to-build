@@ -14,7 +14,7 @@ Tracking: [Issue #3](https://github.com/jvholmes87/our-right-to-build/issues/3).
   - #3 Governance: `area:governance`, `priority:P0`, `gate:owner-review`
   - #4 Deferred site concept: `area:brand`, `priority:P2`, `gate:partner-review`, `status:blocked`
 - Proposed a pull-request-only **non-deployment** check that validates required governance files, homepage semantics and local URL targets. It does **not** verify facts, third-party licenses, accessibility compliance, or operational security.
-- The existing MIT LICENSE has **not** been altered. License choice for documents and creative assets remains an owner decision.
+- **Licensing update (2026-11-15):** owner approved Option A: MIT for original software and CC BY 4.0 for expressly designated original non-code content, subject to rights review. This branch proposes amendments to the MIT scope notice, an explicit [content license manifest](../CONTENT_LICENSE.md), and citation guidance. No merge has been authorized; unrelated third-party assets are excluded.
 
 ## Proposed milestone configuration
 
@@ -42,20 +42,21 @@ On GitHub repository **Settings → Rules → Rulesets** or **Branches → Add b
 
 A workflow running successfully is only a technical gate, not merge or deployment authorization.
 
-## Licensing decision — owner approval required
+## Licensing decision — owner approved Option A; scope still under PR review
 
 - **Existing state:** MIT `LICENSE` already on `main`, applying to the original software and repository-authored material unless marked otherwise. Independent `orb-readiness-research` uses its own terms.
-- **Option A (recommended for clarity):** MIT for source code and software docs; CC BY 4.0 for selected original non-code research/illustrations **after** rights and source reviews, with precise directories/file notices. Avoid silently applying CC BY to third-party images, official reports or materials of uncertain rights.
-- **Option B:** Retain the current MIT baseline across original repository materials, with file-specific exceptions. Simpler management but less tailored to scholarly publishing.
+- **Approved Option A (2026-11-15):** MIT for original source code and software docs; CC BY 4.0 only for the explicitly enumerated original prose documents in [CONTENT_LICENSE.md](../CONTENT_LICENSE.md). Further research/illustration assets require separate affirmative rights review and a manifest update; none are silently relicensed.
+- **Unselected Option B:** Keep a single MIT baseline with exceptions. Not adopted by the owner.
 - Neither option conveys rights over third-party materials, government logos, public records or confidential partner data.
-- No new license adopted by this PR. Owner selects explicitly before a follow-up licensing change is made.
+- The decision is documented in this draft PR and the ORB change register; its file changes do **not** become part of `main` until the owner approves and merges PR #6. Existing grants covering older versions remain unaffected.
 
 ## Manual verification before closing Issue #3
 
 - [x] Verify issue taxonomy is attached to #1–#4.
 - [x] Draft non-deployment CI and publish source for review.
-- [ ] Confirm CI run after PR creation and address any failures.
-- [ ] Owner selects licensing option and any content-scoped exceptions.
+- [x] Initial PR CI run succeeded; recheck the workflow after licensing changes.
+- [x] Owner selected Option A (2026-11-15).
+- [ ] Owner reviews proposed CC BY 4.0 per-file rights inventory and approves PR #6 changes.
 - [ ] Owner approves milestone names/scope; create and verify M0–M3 in GitHub.
 - [ ] Configure and verify `main` PR requirements / ruleset and status checks.
 - [ ] Confirm whether a Project board is needed; create only after owner selection.
