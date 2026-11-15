@@ -34,7 +34,7 @@ For a local preview, open `website/index.html` directly in a browser. No build t
 
 ## Contributing and disclosures
 
-See [CONTRIBUTING](CONTRIBUTING.md), [SECURITY](SECURITY.md), and [licensing](LICENSE). Never publish identifiable participants, restricted correspondence, confidential operational records, site-specific unsupported claims, or unlicensed media.
+See [CONTRIBUTING](CONTRIBUTING.md), [SECURITY](SECURITY.md), [software licensing](LICENSE), and the [file-level content license and rights register](CONTENT_LICENSE.md). Never publish identifiable participants, restricted correspondence, confidential operational records, site-specific unsupported claims, or unlicensed media.
 
 All substantive external-facing claims require a source ID, evidence grade, and appropriate review. **PR approval is required before merge; launch and domain changes require separate owner authorization.**
 
