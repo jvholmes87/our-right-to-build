@@ -27,3 +27,7 @@ Initial baseline: framework-free HTML/CSS in `website/` to avoid premature depen
 - Manual local preview and link checks first; deployment only under [release gates](../docs/RELEASE_GATES.md).
 
 This document is an architecture proposal, not evidence of a registered domain or running website.
+
+---
+
+**Content licensing:** Original non-code prose in this document is designated **CC BY 4.0 International**, subject to the exclusions and attribution terms in [ORB Content Licensing](../CONTENT_LICENSE.md). External sources, hyperlinks, and third-party assets are not relicensed. The legal code is at https://creativecommons.org/licenses/by/4.0/legalcode .

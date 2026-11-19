@@ -9,7 +9,7 @@
 - Gate: `gate:owner-review`, `gate:evidence-review`, `gate:partner-review`
 - State: `status:blocked`, `status:ready-for-review`
 
-Labels should be added when repository label management is available; do not claim they already exist. Open a focused issue per deliverable, with source links, scope, acceptance criteria and review gate.
+Labels in the taxonomy were applied to Issues #1–#4 and verified on 2026-11-15. Existing labels remain available for future issues; some taxonomy labels are unused. Milestone administration and ruleset configuration are pending, as documented in [Issue #3 governance review](ISSUE_3_GOVERNANCE_REVIEW.md). Open a focused issue per deliverable, with source links, scope, acceptance criteria and review gate.
 
 ## Proposed milestones (not created in GitHub until supported)
 
@@ -28,4 +28,12 @@ A task is complete only when code/docs are committed to a review branch, tests a
 
 `issue → scoped branch → changes + tests → draft PR → evidence/security/content review → explicit owner approval → merge → separate release/deployment approval`.
 
-No duplicate PRs; inspect existing work before opening a new one. No automatic merge or deployment is configured by this scaffold.
+No duplicate PRs; inspect existing work before opening a new one. The proposed non-deployment CI for Issue #3 is in `.github/workflows/governance-checks.yml` on its review branch. Passing CI does not constitute approval to merge or deploy; GitHub branch rulesets and hosting settings must be verified independently.
+
+## License verification gate
+
+Before merging a PR that adds a non-code visual, report or document, verify whether it is original ORB-owned content or a third-party/source artifact and update the [explicit licensing and rights register](../CONTENT_LICENSE.md). A CC BY 4.0 notice for one file does not automatically apply to new files in its folder. Unverified assets remain excluded from the CC BY grant.
+
+---
+
+**Content licensing:** Original non-code prose in this document is designated **CC BY 4.0 International**, subject to the exclusions and attribution terms in [ORB Content Licensing](../CONTENT_LICENSE.md). External sources, hyperlinks, and third-party assets are not relicensed. The legal code is at https://creativecommons.org/licenses/by/4.0/legalcode .
